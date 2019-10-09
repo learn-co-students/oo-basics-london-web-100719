@@ -8,8 +8,8 @@ class Shoe
     end
 
     def cobble
-        puts "The shoe has been repaired!"
-        Shoe.material = "new"
+        puts "Your shoe is as good as new!"
+        @material = "new"
     end
 
 end
